@@ -1,0 +1,54 @@
+{
+"ABSOLUTE_PRESERVATION_RULE": {
+"priority": "CRITICAL",
+"instruction": "Preserve the subject’s recognizable identity and exact clothing from the reference image.",
+"constraints": [
+"DO NOT change clothing type, color, or patterns.",
+"DO NOT alter facial features beyond PSWG-style mesh translation.",
+"DO NOT change the original aspect ratio."
+]
+},
+"SOURCE_IMAGE_POLICY": {
+"usage": "Use the reference image ONLY for spatial layout, pose, and composition.",
+"explicit_prohibition": [
+"No image-to-image stylization",
+"No photo-based rendering",
+"No texture or identity transfer"
+]
+},
+"TASK_DEFINITION": {
+"objective": "Rebuild the scene entirely wirh Panty & Stocking with Garterbelt styl3.",
+"method": "Fully synthetic 3D recreation using game-engine assets."
+},
+"STYLE_AND_ENGINE_CONSTRAINTS": {
+"engine": "Panty & Stocking with Garterbelt (2010)",
+"visual_identity": [
+"2D character",
+"Visible texture tiling and LOD geometry"
+],
+"strictly_avoid": [
+"Photorealism",
+"Cinematic CGI",
+"AI-upscaled realism"
+]
+},
+"CHARACTER_RECONSTRUCTION_RULES": {
+"identity": "image must resemble generic Panty & Stocking with Garterbelt art style.",
+"pose_and_blocking": "Match pose and body orientation only.",
+"face_rule": "Use simplified Panty & Stocking with Garterbelt style facial meshes."
+},
+"LIGHTING_AND_RENDERING": {
+"lighting_model": "Real-time Panty & Stocking with Garterbelt lighting and shadows",
+},
+"OUTPUT_SPECIFICATION": {
+"format": "normal anime screenshot look",
+},
+"NEGATIVE_PROMPT": [
+"Original photo look",
+"Same real face",
+"Hyper-real skin",
+"Cinematic movie still",
+"AI photo realism",
+"Concept art style"
+]
+}
