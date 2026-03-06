@@ -28,6 +28,7 @@
 ],
 "strictly_avoid": [
 "Photorealism",
+"Text",
 "Cinematic CGI",
 "AI-upscaled realism"
 ]
