@@ -4,7 +4,7 @@
 "instruction": "Preserve the subject’s recognizable identity and exact clothing from the reference image.",
 "constraints": [
 "DO NOT change clothing type, color, or patterns.",
-"DO NOT alter facial features beyond PSWG-style mesh translation.",
+"DO NOT alter facial features beyond Panty & Stocking with Garterbelt-style mesh translation.",
 "DO NOT change the original aspect ratio."
 ]
 },
@@ -20,8 +20,8 @@
 "objective": "Rebuild the scene entirely wirh Panty & Stocking with Garterbelt styl3.",
 "method": "Fully synthetic 3D recreation using game-engine assets."
 },
-"STYLE_AND_ENGINE_CONSTRAINTS": {
-"engine": "Panty & Stocking with Garterbelt (2010)",
+"STYLE_AND_CONSTRAINTS": {
+"style": "Panty & Stocking with Garterbelt (2010, Gainax)",
 "visual_identity": [
 "2D character",
 "Visible texture tiling and LOD geometry"
@@ -45,9 +45,6 @@
 },
 "NEGATIVE_PROMPT": [
 "Original photo look",
-"Same real face",
-"Hyper-real skin",
-"Cinematic movie still",
 "AI photo realism",
 "Concept art style"
 ]
